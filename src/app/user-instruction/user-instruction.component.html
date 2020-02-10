@@ -1,0 +1,7 @@
+<form [formGroup]="instructionForm" (ngSubmit)="onInstructionFormSubmit()">
+    <input 
+        type="text" 
+        id="robot-input" 
+        [formControlName]="'instruction'" />
+    <p *ngIf="cleaned">=> Cleaned: {{distanceCovered}}</p>
+</form>
