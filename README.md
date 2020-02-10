@@ -14,10 +14,10 @@ Displays the unique places cleaned. Eg: "=> Cleaned: 4"
 
 ### Sample input: ###
 
-2
-10 12
-E 5
-N 1
+2  
+10 12  
+E 5  
+N 1  
 
 ### Sample output: ###
 => Cleaned: 7
